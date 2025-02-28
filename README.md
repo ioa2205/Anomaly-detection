@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/a7425fee-3532-47bb-ac1b-e6faaf66f2a0)# Anomaly Detection in Time-Series Data
+# Anomaly Detection in Time-Series Data
 
 ## **Overview**
 This project focuses on detecting anomalies in time-series data, specifically temperature readings from a machine. The goal is to identify unusual patterns that may indicate system failures. The model used is **Isolation Forest**, which is trained on normal data and flags anomalies when a data point significantly deviates from the expected pattern.
@@ -47,13 +47,13 @@ Specificity: 0.9992
 
 Confusion Matrix:
 
-  True Negatives (TN): 3968
+      True Negatives (TN): 3968
   
-  False Positives (FP): 3
+      False Positives (FP): 3
   
-  False Negatives (FN): 121
+      False Negatives (FN): 121
   
-  True Positives (TP): 446
+      True Positives (TP): 446
 
 ![image](https://github.com/user-attachments/assets/78a7e131-1d16-406d-9156-4ee0728f2be0)
 ## **Future Improvements**
