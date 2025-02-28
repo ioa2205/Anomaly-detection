@@ -31,19 +31,31 @@ def predict_anomaly(features):
 test_features = [30, 27.5, 2.1]  # [Temperature, Rolling Mean, Rolling Std]
 print(predict_anomaly(test_features))
 ```
-##**Evaluation**
-![image](https://github.com/user-attachments/assets/78a7e131-1d16-406d-9156-4ee0728f2be0)
+## **Evaluation**
+
 True Anomalies: 567 out of 4538 (12.49%)
+
 Precision: 0.9933
+
 Recall: 0.7866
+
 F1-score: 0.8780
+
 ROC-AUC: 0.8929
+
 Specificity: 0.9992
+
 Confusion Matrix:
+
   True Negatives (TN): 3968
+  
   False Positives (FP): 3
+  
   False Negatives (FN): 121
+  
   True Positives (TP): 446
+
+![image](https://github.com/user-attachments/assets/78a7e131-1d16-406d-9156-4ee0728f2be0)
 ## **Future Improvements**
 - Implement **Deep Learning models** (LSTM, Autoencoders) for better anomaly detection.
 - Improve **feature engineering** to capture more complex patterns.
